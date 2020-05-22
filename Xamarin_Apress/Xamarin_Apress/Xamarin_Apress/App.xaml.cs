@@ -12,7 +12,8 @@ namespace Xamarin_Apress
 
             //MainPage = new ContentPageExample();
             //MainPage = new StackLayoutVertical();
-            MainPage = new StackLayoutHorizontal();
+            //MainPage = new StackLayoutHorizontal();
+            MainPage = new RelativeLayoutExample();
         }
 
         protected override void OnStart()
