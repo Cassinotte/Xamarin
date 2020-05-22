@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "LKG/ytUaPv2l6B006cxS5U79ucBIbS+t2lPHVfxuxYzUY8H0/xBCZYNlwtQODepq4hUVBdQK9/sCVA+Lebe+cQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Eduardo Cassinotte\\Documents\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.iOS\\Xamarin_Apress.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Eduardo Cassinotte\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,14 @@
+C:\Users\Eduardo Cassinotte\Documents\GitHub\Xamarin\Xamarin_Apress\Xamarin_Apress\Xamarin_Apress\bin\Debug\netstandard2.0\Xamarin_Apress.deps.json
+C:\Users\Eduardo Cassinotte\Documents\GitHub\Xamarin\Xamarin_Apress\Xamarin_Apress\Xamarin_Apress\bin\Debug\netstandard2.0\Xamarin_Apress.dll
+C:\Users\Eduardo Cassinotte\Documents\GitHub\Xamarin\Xamarin_Apress\Xamarin_Apress\Xamarin_Apress\bin\Debug\netstandard2.0\ref\Xamarin_Apress.dll
+C:\Users\Eduardo Cassinotte\Documents\GitHub\Xamarin\Xamarin_Apress\Xamarin_Apress\Xamarin_Apress\bin\Debug\netstandard2.0\Xamarin_Apress.pdb
+C:\Users\Eduardo Cassinotte\Documents\GitHub\Xamarin\Xamarin_Apress\Xamarin_Apress\Xamarin_Apress\obj\Debug\netstandard2.0\Xamarin_Apress.csprojAssemblyReference.cache
+C:\Users\Eduardo Cassinotte\Documents\GitHub\Xamarin\Xamarin_Apress\Xamarin_Apress\Xamarin_Apress\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Eduardo Cassinotte\Documents\GitHub\Xamarin\Xamarin_Apress\Xamarin_Apress\Xamarin_Apress\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Eduardo Cassinotte\Documents\GitHub\Xamarin\Xamarin_Apress\Xamarin_Apress\Xamarin_Apress\obj\Debug\netstandard2.0\Xamarin_Apress.AssemblyInfoInputs.cache
+C:\Users\Eduardo Cassinotte\Documents\GitHub\Xamarin\Xamarin_Apress\Xamarin_Apress\Xamarin_Apress\obj\Debug\netstandard2.0\Xamarin_Apress.AssemblyInfo.cs
+C:\Users\Eduardo Cassinotte\Documents\GitHub\Xamarin\Xamarin_Apress\Xamarin_Apress\Xamarin_Apress\obj\Debug\netstandard2.0\Xamarin_Apress.csproj.CoreCompileInputs.cache
+C:\Users\Eduardo Cassinotte\Documents\GitHub\Xamarin\Xamarin_Apress\Xamarin_Apress\Xamarin_Apress\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Eduardo Cassinotte\Documents\GitHub\Xamarin\Xamarin_Apress\Xamarin_Apress\Xamarin_Apress\obj\Debug\netstandard2.0\Xamarin_Apress.dll
+C:\Users\Eduardo Cassinotte\Documents\GitHub\Xamarin\Xamarin_Apress\Xamarin_Apress\Xamarin_Apress\obj\Debug\netstandard2.0\ref\Xamarin_Apress.dll
+C:\Users\Eduardo Cassinotte\Documents\GitHub\Xamarin\Xamarin_Apress\Xamarin_Apress\Xamarin_Apress\obj\Debug\netstandard2.0\Xamarin_Apress.pdb
