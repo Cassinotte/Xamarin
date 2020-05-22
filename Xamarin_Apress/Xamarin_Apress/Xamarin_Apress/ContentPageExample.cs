@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace Xamarin_Apress
@@ -36,18 +36,83 @@ namespace Xamarin_Apress
                 VerticalOptions = LayoutOptions.Fill
             };
 
+            button.Clicked += (sender, args) =>
+            {
+                button.Text = "It is so!";
+            };
+
+            Entry entry = new Entry
+            {
+                Placeholder = "Username",
+                VerticalOptions = LayoutOptions.Center,
+                Keyboard = Keyboard.Text
+            };
+
+            BoxView boxView = new BoxView
+            {
+                Color = Color.Silver,
+                WidthRequest = 150,
+                HeightRequest = 150,
+                HorizontalOptions = LayoutOptions.StartAndExpand,
+                VerticalOptions = LayoutOptions.Fill
+            };
+
+            Image image = new Image
+            {
+                Source = "monkey.jpeg",
+                Aspect = Aspect.AspectFit,
+                HorizontalOptions = LayoutOptions.End,
+                VerticalOptions = LayoutOptions.Fill
+            };
+
+            var tapGestureRecognizer = new TapGestureRecognizer();
+            tapGestureRecognizer.Tapped += (s, e) =>
+            {
+                image.Opacity = .5;
+            };
+
+            //image.GestureRecognizers.Add(tapGestureRecognizer);
+
+            /*image.GestureRecognizers.Add(new TapGestureRecognizer
+            {
+                Command = new Command(() => { image.Opacity = .5; }),
+            });*/
+
+            var tapGestureRecognizer2 = new TapGestureRecognizer();
+
+            tapGestureRecognizer2.Tapped += async (sender, e) =>
+            {
+                image.Opacity = .5;
+                await Task.Delay(200);
+                image.Opacity = 1;
+            };
+
+            image.GestureRecognizers.Add(tapGestureRecognizer2);
+
             StackLayout stackLayout = new StackLayout
             {
                 Children = {
                    labelLarge,
                    labelSmall,
-                   button
+                   button,
+                   entry,
+                   boxView,
+                   image
                 },
                 HeightRequest = 1500
                 
             };
 
-            this.Content = stackLayout;
+            ScrollView scrollView = new ScrollView
+            {
+                VerticalOptions = LayoutOptions.FillAndExpand,
+                Content = stackLayout
+            };
+
+            //Acomoda a barra de status do iphone
+            this.Padding = new Thickness(10, Device.OnPlatform(20, 0, 0), 10, 5);
+
+            this.Content = scrollView;
         }
     }
 }
