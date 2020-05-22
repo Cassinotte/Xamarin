@@ -1975,11 +1975,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eduardo Cassinotte\\Documents\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.Android\\Xamarin_Apress.Android.csproj",
+      "projectUniqueName": "C:\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.Android\\Xamarin_Apress.Android.csproj",
       "projectName": "Xamarin_Apress.Android",
-      "projectPath": "C:\\Users\\Eduardo Cassinotte\\Documents\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.Android\\Xamarin_Apress.Android.csproj",
+      "projectPath": "C:\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.Android\\Xamarin_Apress.Android.csproj",
       "packagesPath": "C:\\Users\\Eduardo Cassinotte\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eduardo Cassinotte\\Documents\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.Android\\obj\\",
+      "outputPath": "C:\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2000,8 +2000,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Eduardo Cassinotte\\Documents\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.csproj": {
-              "projectPath": "C:\\Users\\Eduardo Cassinotte\\Documents\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.csproj"
+            "C:\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.csproj": {
+              "projectPath": "C:\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.csproj"
             }
           }
         }

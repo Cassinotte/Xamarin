@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vOICXmGSc3IDamTwC/FjeIh927Az8gFRQXRVfkfH/jZyr5f3Sv0SdxSM9EczxCz3iTmNBKtK3NI5ab87d3oAxg==",
+  "dgSpecHash": "6Q8uAD/RK/l9x8YdrjZrTyYjR19Ov+y9itywa0Y56MqE16SEIBVTaF8pkvI5Ft+UeC1reRB0mAKHI7kXiIxHsw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eduardo Cassinotte\\Documents\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.Android\\Xamarin_Apress.Android.csproj",
+  "projectFilePath": "C:\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.Android\\Xamarin_Apress.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eduardo Cassinotte\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",

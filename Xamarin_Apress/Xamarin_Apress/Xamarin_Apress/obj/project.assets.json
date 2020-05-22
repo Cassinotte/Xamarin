@@ -610,11 +610,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eduardo Cassinotte\\Documents\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.csproj",
+      "projectUniqueName": "C:\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.csproj",
       "projectName": "Xamarin_Apress",
-      "projectPath": "C:\\Users\\Eduardo Cassinotte\\Documents\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.csproj",
+      "projectPath": "C:\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.csproj",
       "packagesPath": "C:\\Users\\Eduardo Cassinotte\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eduardo Cassinotte\\Documents\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress\\obj\\",
+      "outputPath": "C:\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

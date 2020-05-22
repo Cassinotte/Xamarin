@@ -1051,11 +1051,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eduardo Cassinotte\\Documents\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.iOS\\Xamarin_Apress.iOS.csproj",
+      "projectUniqueName": "C:\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.iOS\\Xamarin_Apress.iOS.csproj",
       "projectName": "Xamarin_Apress.iOS",
-      "projectPath": "C:\\Users\\Eduardo Cassinotte\\Documents\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.iOS\\Xamarin_Apress.iOS.csproj",
+      "projectPath": "C:\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.iOS\\Xamarin_Apress.iOS.csproj",
       "packagesPath": "C:\\Users\\Eduardo Cassinotte\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eduardo Cassinotte\\Documents\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.iOS\\obj\\",
+      "outputPath": "C:\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1076,8 +1076,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Eduardo Cassinotte\\Documents\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.csproj": {
-              "projectPath": "C:\\Users\\Eduardo Cassinotte\\Documents\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.csproj"
+            "C:\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.csproj": {
+              "projectPath": "C:\\GitHub\\Xamarin\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress\\Xamarin_Apress.csproj"
             }
           }
         }
