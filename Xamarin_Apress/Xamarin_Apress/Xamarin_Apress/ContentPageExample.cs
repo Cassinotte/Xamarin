@@ -107,6 +107,7 @@ namespace Xamarin_Apress
             {
                 VerticalOptions = LayoutOptions.FillAndExpand,
                 Content = stackLayout
+                
             };
 
             //Acomoda a barra de status do iphone
