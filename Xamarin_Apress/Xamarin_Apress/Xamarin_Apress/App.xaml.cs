@@ -14,7 +14,9 @@ namespace Xamarin_Apress
             //MainPage = new StackLayoutVertical();
             //MainPage = new StackLayoutHorizontal();
             //MainPage = new RelativeLayoutExample();
-            MainPage = new AbsoluteLayoutExample();
+            //MainPage = new AbsoluteLayoutExample();
+            //MainPage = new GridExample1();
+            MainPage = new GridExample2();
         }
 
         protected override void OnStart()
