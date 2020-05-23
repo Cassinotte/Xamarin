@@ -9321,7 +9321,10 @@ namespace Xamarin_Apress.Droid
 			public const int Tabbar = 2131427399;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int Toolbar = 2131427400;
+			public const int TableLayoutExample = 2131427400;
+			
+			// aapt resource value: 0x7F0B0049
+			public const int Toolbar = 2131427401;
 			
 			static Layout()
 			{

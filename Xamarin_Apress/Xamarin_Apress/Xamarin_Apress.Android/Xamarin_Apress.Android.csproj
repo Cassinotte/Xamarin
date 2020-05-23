@@ -95,12 +95,17 @@
     <AndroidResource Include="Resources\drawable\monkey.jpeg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\LinearLayoutExample.axml">
+    <AndroidResource Include="Resources\layout\LinearLayoutExample.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\RelativeLayoutExample.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\TableLayoutExample.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

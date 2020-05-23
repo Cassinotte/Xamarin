@@ -17,7 +17,8 @@ namespace Xamarin_Apress.Droid
         {
             //OnCreateBase(savedInstanceState);
             //OnCreateAndroid(Resource.Layout.LinearLayoutExample, savedInstanceState);
-            OnCreateAndroid(Resource.Layout.RelativeLayoutExample, savedInstanceState);
+            //OnCreateAndroid(Resource.Layout.RelativeLayoutExample, savedInstanceState);
+            OnCreateAndroid(Resource.Layout.TableLayoutExample, savedInstanceState);
         }
 
         protected void OnCreateBase(Bundle savedInstanceState)
