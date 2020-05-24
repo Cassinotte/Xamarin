@@ -25,3 +25,4 @@ C:\GitHub\Xamarin\Xamarin_Apress\Xamarin_Apress\Xamarin_Apress\obj\Debug\netstan
 C:\GitHub\Xamarin\Xamarin_Apress\Xamarin_Apress\Xamarin_Apress\obj\Debug\netstandard2.0\Xamarin_Apress.dll
 C:\GitHub\Xamarin\Xamarin_Apress\Xamarin_Apress\Xamarin_Apress\obj\Debug\netstandard2.0\ref\Xamarin_Apress.dll
 C:\GitHub\Xamarin\Xamarin_Apress\Xamarin_Apress\Xamarin_Apress\obj\Debug\netstandard2.0\Xamarin_Apress.pdb
+C:\GitHub\Xamarin\Xamarin_Apress\Xamarin_Apress\Xamarin_Apress\obj\Debug\netstandard2.0\Xamarin_Apress.csprojAssemblyReference.cache
