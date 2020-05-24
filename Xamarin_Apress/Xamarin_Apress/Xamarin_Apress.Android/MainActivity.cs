@@ -15,13 +15,13 @@ namespace Xamarin_Apress.Droid
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            //OnCreateBase(savedInstanceState);
+            OnCreateBase(savedInstanceState);
             //OnCreateAndroid(Resource.Layout.LinearLayoutExample, savedInstanceState);
             //OnCreateAndroid(Resource.Layout.RelativeLayoutExample, savedInstanceState);
             //OnCreateAndroid(Resource.Layout.TableLayoutExample, savedInstanceState);
 
             //OnCreateAndroid(Resource.Layout.GridLayoutExample, savedInstanceState);
-            OnCreateAndroid(Resource.Layout.FrameLayout, savedInstanceState);
+            //OnCreateAndroid(Resource.Layout.FrameLayout, savedInstanceState);
         }
 
         protected void OnCreateBase(Bundle savedInstanceState)

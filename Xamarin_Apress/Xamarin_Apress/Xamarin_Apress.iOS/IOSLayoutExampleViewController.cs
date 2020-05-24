@@ -7,25 +7,6 @@ using Foundation;
 
 namespace Xamarin_Apress.iOS
 {
-    [Register("UniversalView")]
-    public class UniversalView : UIView
-    {
-        public UniversalView()
-        {
-            Initialize();
-        }
-
-        public UniversalView(RectangleF bounds) : base(bounds)
-        {
-            Initialize();
-        }
-
-        void Initialize()
-        {
-            BackgroundColor = UIColor.Red;
-        }
-    }
-
     [Register("IOSLayoutExampleViewController")]
     public class IOSLayoutExampleViewController : UIViewController
     {

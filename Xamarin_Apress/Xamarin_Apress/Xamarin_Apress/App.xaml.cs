@@ -19,7 +19,9 @@ namespace Xamarin_Apress
             //MainPage = new GridExample2();
             //MainPage = new GridExample3();
             //MainPage = new ContentViewExample();
-            MainPage = new FrameExample();
+            //MainPage = new FrameExample();
+
+            MainPage = new Controls();
         }
 
         protected override void OnStart()
