@@ -11,6 +11,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xamarin_Apress", "Xamarin_A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin_ControlExamplesAndroid", "Xamarin_ControlExamplesAndroid\Xamarin_ControlExamplesAndroid.csproj", "{F02B91C6-4801-468B-B995-CE263BE7D82A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin_PickerExampleIOS", "Xamarin_PickerExampleIOS\Xamarin_PickerExampleIOS.csproj", "{C437CE8F-400D-4B28-B7AE-7C49DFD5EC02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin_DatePickerExampleIOS", "Xamarin_DatePickerExampleIOS\Xamarin_DatePickerExampleIOS.csproj", "{6246472B-39D2-40DD-94D1-21870ACFD176}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin_StepperSliderSwitchIOS", "Xamarin_StepperSliderSwitchIOS\Xamarin_StepperSliderSwitchIOS.csproj", "{0108E6AC-99EF-42F7-9EDD-7742A6426459}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +99,36 @@ Global
 		{F02B91C6-4801-468B-B995-CE263BE7D82A}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{F02B91C6-4801-468B-B995-CE263BE7D82A}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{F02B91C6-4801-468B-B995-CE263BE7D82A}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{C437CE8F-400D-4B28-B7AE-7C49DFD5EC02}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{C437CE8F-400D-4B28-B7AE-7C49DFD5EC02}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{C437CE8F-400D-4B28-B7AE-7C49DFD5EC02}.Debug|iPhone.Build.0 = Debug|iPhone
+		{C437CE8F-400D-4B28-B7AE-7C49DFD5EC02}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{C437CE8F-400D-4B28-B7AE-7C49DFD5EC02}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{C437CE8F-400D-4B28-B7AE-7C49DFD5EC02}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{C437CE8F-400D-4B28-B7AE-7C49DFD5EC02}.Release|iPhone.ActiveCfg = Release|iPhone
+		{C437CE8F-400D-4B28-B7AE-7C49DFD5EC02}.Release|iPhone.Build.0 = Release|iPhone
+		{C437CE8F-400D-4B28-B7AE-7C49DFD5EC02}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{C437CE8F-400D-4B28-B7AE-7C49DFD5EC02}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{6246472B-39D2-40DD-94D1-21870ACFD176}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{6246472B-39D2-40DD-94D1-21870ACFD176}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{6246472B-39D2-40DD-94D1-21870ACFD176}.Debug|iPhone.Build.0 = Debug|iPhone
+		{6246472B-39D2-40DD-94D1-21870ACFD176}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{6246472B-39D2-40DD-94D1-21870ACFD176}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{6246472B-39D2-40DD-94D1-21870ACFD176}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{6246472B-39D2-40DD-94D1-21870ACFD176}.Release|iPhone.ActiveCfg = Release|iPhone
+		{6246472B-39D2-40DD-94D1-21870ACFD176}.Release|iPhone.Build.0 = Release|iPhone
+		{6246472B-39D2-40DD-94D1-21870ACFD176}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{6246472B-39D2-40DD-94D1-21870ACFD176}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{0108E6AC-99EF-42F7-9EDD-7742A6426459}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{0108E6AC-99EF-42F7-9EDD-7742A6426459}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{0108E6AC-99EF-42F7-9EDD-7742A6426459}.Debug|iPhone.Build.0 = Debug|iPhone
+		{0108E6AC-99EF-42F7-9EDD-7742A6426459}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{0108E6AC-99EF-42F7-9EDD-7742A6426459}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{0108E6AC-99EF-42F7-9EDD-7742A6426459}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{0108E6AC-99EF-42F7-9EDD-7742A6426459}.Release|iPhone.ActiveCfg = Release|iPhone
+		{0108E6AC-99EF-42F7-9EDD-7742A6426459}.Release|iPhone.Build.0 = Release|iPhone
+		{0108E6AC-99EF-42F7-9EDD-7742A6426459}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{0108E6AC-99EF-42F7-9EDD-7742A6426459}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
