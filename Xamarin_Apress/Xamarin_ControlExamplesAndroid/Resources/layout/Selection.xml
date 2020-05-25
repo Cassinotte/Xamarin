@@ -1,0 +1,57 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"/>
+
+    <CheckBox
+        android:text="Option1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox1"/>
+
+    <CheckBox
+        android:text="Option2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox2"/>
+
+
+    <Switch
+        android:text="Feature activated ? "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+        android:layout_gravity="center_horizontal"
+        android:checked="true"
+        android:textOn="YES"
+        android:textOff="NO"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:text="First"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+         <RadioButton
+            android:id="@+id/radio2"
+            android:text="Second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+   
+    
+    </RadioGroup>
+
+</LinearLayout>

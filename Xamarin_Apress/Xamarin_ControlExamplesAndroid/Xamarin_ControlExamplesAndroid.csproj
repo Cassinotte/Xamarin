@@ -62,11 +62,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DatePickerActivity.cs" />
+    <Compile Include="DateTimeActivity.cs" />
     <Compile Include="ListItemAdapter .cs" />
     <Compile Include="ListItem.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SelectionActivity.cs" />
     <Compile Include="SpinnerActivity.cs" />
     <Compile Include="TimePickerActivity.cs" />
   </ItemGroup>
@@ -127,6 +129,16 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\TimePicker.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Selection.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\DateTime.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
