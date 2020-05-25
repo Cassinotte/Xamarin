@@ -18,8 +18,8 @@ namespace Xamarin_ControlExamplesAndroid
             listItems = new List<ListItem> {
                 new ListItem {Title = "Spinner", PageType= typeof(SpinnerActivity)},
                 //new ListItem {Title = "Selection Controls", PageType= typeof(SelectionActivity)},
-                //new ListItem {Title = "Date Picker", PageType= typeof(DatePickerActivity)},
-                //new ListItem {Title = "Time Picker", PageType= typeof(TimePickerActivity)},
+                new ListItem {Title = "Date Picker", PageType= typeof(DatePickerActivity)},
+                new ListItem {Title = "Time Picker", PageType= typeof(TimePickerActivity)},
                 //new ListItem {Title = "Date/Time Picker", PageType= typeof(DateTimeActivity)}
             };
 

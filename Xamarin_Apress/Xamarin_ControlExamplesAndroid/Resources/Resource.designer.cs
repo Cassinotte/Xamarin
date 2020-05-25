@@ -3736,61 +3736,64 @@ namespace Xamarin_ControlExamplesAndroid
 			public const int time = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int title = 2131230893;
+			public const int timePicker = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int titleDividerNoCustom = 2131230894;
+			public const int title = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int title_template = 2131230895;
+			public const int titleDividerNoCustom = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int top = 2131230896;
+			public const int title_template = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int topPanel = 2131230897;
+			public const int top = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int touch_outside = 2131230898;
+			public const int topPanel = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int transition_current_scene = 2131230899;
+			public const int touch_outside = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int transition_layout_save = 2131230900;
+			public const int transition_current_scene = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int transition_position = 2131230901;
+			public const int transition_layout_save = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int transition_scene_layoutid_cache = 2131230902;
+			public const int transition_position = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int transition_transform = 2131230903;
+			public const int transition_scene_layoutid_cache = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int uniform = 2131230904;
+			public const int transition_transform = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int unlabeled = 2131230905;
+			public const int uniform = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int up = 2131230906;
+			public const int unlabeled = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int useLogo = 2131230907;
+			public const int up = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int view_offset_helper = 2131230908;
+			public const int useLogo = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int visible = 2131230909;
+			public const int view_offset_helper = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int withText = 2131230910;
+			public const int visible = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int wrap_content = 2131230911;
+			public const int withText = 2131230911;
+			
+			// aapt resource value: 0x7F0800C0
+			public const int wrap_content = 2131230912;
 			
 			static Id()
 			{
@@ -4048,22 +4051,28 @@ namespace Xamarin_ControlExamplesAndroid
 			public const int notification_template_part_time = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int select_dialog_item_material = 2131427381;
+			public const int Picker = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int select_dialog_multichoice_material = 2131427382;
+			public const int select_dialog_item_material = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int select_dialog_singlechoice_material = 2131427383;
+			public const int select_dialog_multichoice_material = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int Spinner = 2131427384;
+			public const int select_dialog_singlechoice_material = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int support_simple_spinner_dropdown_item = 2131427385;
+			public const int Spinner = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int TextViewForSpinner = 2131427386;
+			public const int support_simple_spinner_dropdown_item = 2131427386;
+			
+			// aapt resource value: 0x7F0B003B
+			public const int TextViewForSpinner = 2131427387;
+			
+			// aapt resource value: 0x7F0B003C
+			public const int TimePicker = 2131427388;
 			
 			static Layout()
 			{
