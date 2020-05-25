@@ -11,7 +11,9 @@ namespace Xamarin_Apress_ListViewString
             InitializeComponent();
 
             //MainPage = new MainPage();
-            MainPage = new ListViewString();
+            //MainPage = new ListViewString();
+            MainPage = new ListViewDataModel();
+
         }
 
         protected override void OnStart()
