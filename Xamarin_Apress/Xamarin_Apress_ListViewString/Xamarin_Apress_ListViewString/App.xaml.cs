@@ -14,7 +14,10 @@ namespace Xamarin_Apress_ListViewString
             //MainPage = new ListViewString();
             //MainPage = new ListViewDataModel();
             //MainPage = new ListViewImageCell();
-            MainPage = new ListViewCustom();
+            //MainPage = new ListViewCustom();
+            //MainPage = new ListViewGrouped();
+            MainPage = new ListViewGroupingTemplate();
+            //MainPage = new ListViewScroll();
         }
 
         protected override void OnStart()
