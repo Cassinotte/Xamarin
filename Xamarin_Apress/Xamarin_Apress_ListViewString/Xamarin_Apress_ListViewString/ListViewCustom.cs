@@ -45,7 +45,64 @@ namespace Xamarin_Apress_ListViewString
                 }
             };
 
-            listView.ItemTapped += as
+            listView.ItemTapped += async (sender, e) =>
+            {
+                ListItem item = (ListItem)e.Item;
+                await DisplayAlert("Tapped", item.Title.ToString() + " was selected.", "Ok");
+                ((ListView)sender).SelectedItem = null;
+            };
+        }
+    }
+
+    public class ListItemCell : ViewCell
+    {
+        public ListItemCell()
+        {
+            Label titleLabel = new Label
+            {
+                HorizontalOptions = LayoutOptions.FillAndExpand,
+                FontSize = 25,
+                FontAttributes = Xamarin.Forms.FontAttributes.Bold,
+                TextColor = Color.White
+            };
+
+            titleLabel.SetBinding(Label.TextProperty, "Title");
+
+            Label descLabel = new Label
+            {
+                HorizontalOptions = LayoutOptions.FillAndExpand,
+                FontSize = 12,
+                TextColor = Color.White
+            };
+
+            descLabel.SetBinding(Label.TextProperty, "Description");
+
+            StackLayout viewLayoutItem = new StackLayout()
+            {
+                HorizontalOptions = LayoutOptions.StartAndExpand,
+                Orientation = StackOrientation.Vertical,
+                Children = { titleLabel, descLabel }
+            };
+
+            Label priceLabel = new Label
+            {
+                HorizontalOptions = LayoutOptions.End,
+                FontSize = 25,
+                TextColor = Color.Aqua
+            };
+
+            priceLabel.SetBinding(Label.TextProperty, "Price");
+
+            StackLayout viewLayout = new StackLayout()
+            {
+                HorizontalOptions = LayoutOptions.StartAndExpand,
+                Orientation = StackOrientation.Horizontal,
+                Padding = new Thickness(25, 10, 55, 15),
+                Children = { viewLayoutItem, priceLabel }
+
+            };
+
+            View = viewLayout;
         }
     }
 }
