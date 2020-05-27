@@ -18,5 +18,7 @@ namespace Xamarin_ListViewStringAndroid
         public string Title { get; set; }
 
         public string Description { get; set; }
+
+        public Boolean IsGroupHeader { get; set; }
     }
 }

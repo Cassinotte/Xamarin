@@ -12,21 +12,17 @@ using Android.Widget;
 
 namespace Xamarin_ListViewStringAndroid
 {
-    public class ListItemAdapter : BaseAdapter
+    public class ListCustomAdapter : BaseAdapter
     {
         private List<ListItem> itemList;
         private Activity context;
 
-        public ListItemAdapter(Activity context, List<ListItem> items)
+        public ListCustomAdapter(Activity context, List<ListItem> items) : base()
         {
             this.context = context;
-            this.itemList = items;
+            itemList = items;
         }
 
-        public override int Count
-        {
-            get { return itemList.Count; }
-        }
 
         public override Java.Lang.Object GetItem(int position)
         {
@@ -40,20 +36,35 @@ namespace Xamarin_ListViewStringAndroid
 
         public override View GetView(int position, View convertView, ViewGroup parent)
         {
-            View view = convertView;
-
+            var view = convertView;
             if (view == null)
             {
-                view = context.LayoutInflater.Inflate(
-                    Android.Resource.Layout.SimpleListItem1, null);
+                view = context.LayoutInflater.Inflate(Resource.Layout.CustomLayout, null);
             }
 
-            view.FindViewById<TextView>(Android.Resource.Id.Text1).Text =
+            view.FindViewById<TextView>(Resource.Id.title).Text =
                 itemList[position].Title;
 
+            view.FindViewById<TextView>(Resource.Id.description).Text =
+                itemList[position].Description;
+
             return view;
-          
         }
 
+        //Fill in cound here, currently 0
+        public override int Count
+        {
+            get
+            {
+                return itemList.Count;
+            }
+        }
+
+    }
+
+    class ListCustomAdapterViewHolder : Java.Lang.Object
+    {
+        //Your adapter views to re-use
+        //public TextView Title { get; set; }
     }
 }

@@ -62,9 +62,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ListActivityArray.cs" />
+    <Compile Include="ListActivityDataModel .cs" />
+    <Compile Include="ListCustomAdapter.cs" />
+    <Compile Include="ListGroupAdapter .cs" />
     <Compile Include="ListItem.cs" />
     <Compile Include="ListItemAdapter.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="MainActivityGrouped.cs" />
+    <Compile Include="MainCustomListActivity.cs" />
     <Compile Include="MenuListItem.cs" />
     <Compile Include="MenuListItemAdapter.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
@@ -109,6 +114,16 @@
     <PackageReference Include="Xamarin.Android.Support.Core.Utils" Version="28.0.0.3" />
     <PackageReference Include="Xamarin.Android.Support.CustomTabs" Version="28.0.0.3" />
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\HomeLayout.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\CustomLayout.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

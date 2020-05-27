@@ -19,9 +19,9 @@ namespace Xamarin_ListViewStringAndroid
 
             listItems = new List<MenuListItem> {
                 new MenuListItem {Title = "Bind to Array of Strings", PageType= typeof(ListActivityArray)},
-                //new MenuListItem {Title = "Bind to Data Model", PageType= typeof(ListActivityDataModel)},
-                //new MenuListItem {Title = "Customize List", PageType= typeof(MainCustomListActivity)},
-                //new MenuListItem {Title = "Grouping a list", PageType= typeof(MainActivityGrouped)}
+                new MenuListItem {Title = "Bind to Data Model", PageType= typeof(ListActivityDataModel)},
+                new MenuListItem {Title = "Customize List", PageType= typeof(MainCustomListActivity)},
+                new MenuListItem {Title = "Grouping a list", PageType= typeof(MainActivityGrouped)}
             };
 
             ListAdapter = new MenuListItemAdapter(this, listItems);
