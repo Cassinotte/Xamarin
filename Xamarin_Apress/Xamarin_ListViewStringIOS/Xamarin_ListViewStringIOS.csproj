@@ -61,19 +61,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="CustomCell.cs" />
+    <Compile Include="Group.cs" />
     <Compile Include="HomePage.cs" />
     <Compile Include="ListArrayViewController.cs" />
     <Compile Include="ListCustomViewController.cs" />
     <Compile Include="ListItem.cs" />
     <Compile Include="ListMenuItem.cs" />
     <Compile Include="ListMenuSource .cs" />
-    <Compile Include="ListMenuSource .designer.cs">
-      <DependentUpon>ListMenuSource .cs</DependentUpon>
-    </Compile>
+    <Compile Include="ListModelGroupedViewController.cs" />
     <Compile Include="ListModelViewController.cs" />
+    <Compile Include="ListModelViewControllerCellReuse.cs" />
     <Compile Include="ListSourceFromArray.cs" />
     <Compile Include="ListSourceFromCustomCell.cs" />
     <Compile Include="ListSourceFromModel.cs" />
+    <Compile Include="ListSourceFromModelCellReuse.cs" />
+    <Compile Include="ListSourceFromModelGrouped.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <None Include="Info.plist" />

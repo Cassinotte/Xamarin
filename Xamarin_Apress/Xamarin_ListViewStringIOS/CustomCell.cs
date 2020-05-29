@@ -13,6 +13,30 @@ namespace Xamarin_ListViewStringIOS
     {
         UILabel titleLabel, descriptionLabel;
 
+        public CustomCell(IntPtr p) : base(p) // for the new cell reuse
+        {
+            SelectionStyle = UITableViewCellSelectionStyle.Blue;
+            ContentView.BackgroundColor = UIColor.FromRGB(27, 16, 117);
+
+            titleLabel = new UILabel()
+            {
+                Font = UIFont.FromName("Helvetica-Bold", 25f),
+                TextColor = UIColor.White,
+                BackgroundColor = UIColor.Clear
+            };
+
+            descriptionLabel = new UILabel()
+            {
+                Font = UIFont.FromName("Helvetica-Light", 12f),
+                TextColor = UIColor.FromRGB(179, 179, 186),
+                TextAlignment = UITextAlignment.Center,
+                BackgroundColor = UIColor.Clear
+            };
+
+            ContentView.AddSubviews(new UIView[] { titleLabel, descriptionLabel });
+        }
+
+
         public CustomCell(NSString cellId) : base(UITableViewCellStyle.Default, cellId)
         {
             SelectionStyle = UITableViewCellSelectionStyle.Gray;
