@@ -7,9 +7,9 @@ using Xamarin.Forms;
 
 namespace Xamarin_Apress_Navigation
 {
-    public class SecondPage : ContentPage
+    public class NavigationPage2 : ContentPage
     {
-        public SecondPage()
+        public NavigationPage2()
         {
             Title = "Hierarchical Navigation";
 
@@ -21,14 +21,10 @@ namespace Xamarin_Apress_Navigation
 
             var stackLayout = new StackLayout
             {
-                Children = {
-                    homeLabel
-                }
+                Children = { homeLabel }
             };
 
             this.Content = stackLayout;
         }
-
-
     }
 }
