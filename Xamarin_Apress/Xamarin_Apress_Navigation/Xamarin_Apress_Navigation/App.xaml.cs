@@ -10,8 +10,11 @@ namespace Xamarin_Apress_Navigation
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new HomePage());
+            //MainPage = new NavigationPage(new HomePage());
             //MainPage = new NavigationPage(new DropdowMenu());
+            //MainPage = new NavigationPage(new Alert());
+            //MainPage = new NavigationPage(new PopupMenu());
+            MainPage = new NavigationPage(new DrilldownListViewByItem());
         }
 
         protected override void OnStart()
