@@ -12,7 +12,7 @@ namespace Xamarin_Apress_Navigation
         {
             Title = "Navigation Drawer Using MasterDetailsPage";
 
-            string[] myPageNames = { "Home", "Second", "Third" };
+            string[] myPageNames = { "Home", "Second", "Third", "HomeCustom" };
 
             ListView listView = new ListView
             {
@@ -42,6 +42,10 @@ namespace Xamarin_Apress_Navigation
 
                     case "Third":
                         gotoPage = new ThirdPage();
+                        break;
+
+                    case "HomeCustom":
+                        gotoPage = new HomePageCustom();
                         break;
 
                     default:
