@@ -7,16 +7,16 @@ using Xamarin.Forms;
 
 namespace Xamarin_Apress_Navigation
 {
-    public class Carousel : ContentPage
+    public class Carousel : CarouselPage
     {
         public Carousel()
         {
-            Content = new StackLayout
-            {
-                Children = {
-                    new Label { Text = "Welcome to Xamarin.Forms!" }
-                }
-            };
+            Title = "Carousel Using CarouselPage";
+
+            this.Children.Add(new FirstPage());
+            this.Children.Add(new SecondPage());
+            this.Children.Add(new ThirdPage());
+
         }
     }
 }

@@ -32,16 +32,61 @@ namespace Xamarin_Apress_Navigation
                 }
             };
 
-            var firstImage = 
-
-
-
-            Content = new StackLayout
+            var firstImage = new Image
             {
-                Children = {
-                    new Label { Text = "Welcome to Xamarin.Forms!" }
-                }
+                Source = "first.png",
+                Aspect = Aspect.AspectFit,
+                HorizontalOptions = LayoutOptions.FillAndExpand,
+                VerticalOptions = LayoutOptions.FillAndExpand
             };
+
+            grid.Children.Add(firstImage, 0, 0);
+
+            var secondImage = new Image
+            {
+                Source = "second.png"
+            };
+
+            grid.Children.Add(secondImage, 0, 1);
+
+            var thirdImage = new Image
+            {
+                Source = "third.png"
+            };
+
+            grid.Children.Add(thirdImage, 0, 2);
+
+
+            var tapFirst = new TapGestureRecognizer();
+
+            tapFirst.Tapped += async (s, e) =>
+            {
+                await this.Navigation.PushAsync(new FirstPage());
+            };
+
+            firstImage.GestureRecognizers.Add(tapFirst);
+
+
+            var tapSecond = new TapGestureRecognizer();
+            tapSecond.Tapped += async (s, e) =>
+            {
+                await this.Navigation.PushAsync(new SecondPage());
+            };
+
+            secondImage.GestureRecognizers.Add(tapSecond);
+
+            var tapthird = new TapGestureRecognizer();
+            tapthird.Tapped += async (s, e) =>
+            {
+                await this.Navigation.PushAsync(new ThirdPage());
+            };
+
+
+            thirdImage.GestureRecognizers.Add(tapFirst);
+
+            this.Padding = new Thickness(10, Device.OnPlatform(20, 0, 0), 10, 5);
+
+            Content = grid;
         }
     }
 }

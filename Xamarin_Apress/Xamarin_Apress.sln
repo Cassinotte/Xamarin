@@ -43,7 +43,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin_Apress_Navigation.A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin_Apress_Navigation.iOS", "Xamarin_Apress_Navigation\Xamarin_Apress_Navigation.iOS\Xamarin_Apress_Navigation.iOS.csproj", "{F9E09252-5873-42FA-9F67-ED8C11D771DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin_Apress_Navigation", "Xamarin_Apress_Navigation\Xamarin_Apress_Navigation\Xamarin_Apress_Navigation.csproj", "{A9256DED-A415-45B2-BB76-281D7FA1F26E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xamarin_Apress_Navigation", "Xamarin_Apress_Navigation\Xamarin_Apress_Navigation\Xamarin_Apress_Navigation.csproj", "{A9256DED-A415-45B2-BB76-281D7FA1F26E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin_NavigationAndroid", "Xamarin_NavigationAndroid\Xamarin_NavigationAndroid.csproj", "{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -487,6 +489,42 @@ Global
 		{A9256DED-A415-45B2-BB76-281D7FA1F26E}.Release|x64.Build.0 = Release|Any CPU
 		{A9256DED-A415-45B2-BB76-281D7FA1F26E}.Release|x86.ActiveCfg = Release|Any CPU
 		{A9256DED-A415-45B2-BB76-281D7FA1F26E}.Release|x86.Build.0 = Release|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Debug|ARM.Build.0 = Debug|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Debug|ARM.Deploy.0 = Debug|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Debug|iPhone.Deploy.0 = Debug|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Debug|x64.Build.0 = Debug|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Debug|x64.Deploy.0 = Debug|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Debug|x86.Build.0 = Debug|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Debug|x86.Deploy.0 = Debug|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Release|ARM.ActiveCfg = Release|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Release|ARM.Build.0 = Release|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Release|ARM.Deploy.0 = Release|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Release|iPhone.Build.0 = Release|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Release|iPhone.Deploy.0 = Release|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Release|x64.ActiveCfg = Release|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Release|x64.Build.0 = Release|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Release|x64.Deploy.0 = Release|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Release|x86.ActiveCfg = Release|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Release|x86.Build.0 = Release|Any CPU
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Release|x86.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -509,6 +547,7 @@ Global
 		{C64E883D-9C58-4470-955E-BD50A5D34EB4} = {B924DCF1-5859-4EED-B2E5-D9C9BC5133D5}
 		{F9E09252-5873-42FA-9F67-ED8C11D771DA} = {B924DCF1-5859-4EED-B2E5-D9C9BC5133D5}
 		{A9256DED-A415-45B2-BB76-281D7FA1F26E} = {B924DCF1-5859-4EED-B2E5-D9C9BC5133D5}
+		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD} = {B924DCF1-5859-4EED-B2E5-D9C9BC5133D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F13FB8F3-DFA6-49C0-A8DB-6E1E4F7807EF}
