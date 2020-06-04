@@ -29,7 +29,7 @@ namespace Xamarin_NavigationAndroid
 
             SetActionBar(toolbar);
 
-            toolbar.Title = "Toolbar Home";
+            ActionBar.Title = "Toolbar Home";
 
         }
     }
