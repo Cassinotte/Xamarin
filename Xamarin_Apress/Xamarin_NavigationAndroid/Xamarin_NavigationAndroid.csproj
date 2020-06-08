@@ -61,11 +61,19 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DialogAlertActivity.cs" />
+    <Compile Include="DialogFragmentAlert.cs" />
+    <Compile Include="DialogFragmentView.cs" />
+    <Compile Include="DialogViewActivity.cs" />
     <Compile Include="FirstFragment.cs" />
     <Compile Include="FragmentsActivity.cs" />
     <Compile Include="ListItem.cs" />
     <Compile Include="ListItemAdapter.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="ModalAlertActivity.cs" />
+    <Compile Include="PassStringActivity.cs" />
+    <Compile Include="PassStringToActivity.cs" />
+    <Compile Include="PopupActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecondFragment.cs" />
@@ -147,6 +155,26 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Fragment2.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Modal.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Popuplayout.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\PassFrom.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\PassTo.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
