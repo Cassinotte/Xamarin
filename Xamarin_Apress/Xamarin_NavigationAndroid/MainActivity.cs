@@ -8,7 +8,7 @@ using Android.Views;
 
 namespace Xamarin_NavigationAndroid
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
+    [Activity(Label = "@string/app_name", Theme = "@style/MyTheme", MainLauncher = true)]
     public class MainActivity : ListActivity
     {
 

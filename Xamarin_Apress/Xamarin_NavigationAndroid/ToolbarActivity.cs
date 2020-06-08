@@ -31,6 +31,44 @@ namespace Xamarin_NavigationAndroid
 
             ActionBar.Title = "Toolbar Home";
 
+            var nextPageButton = FindViewById<Button>(Resource.Id.nextPageButton);
+
+            nextPageButton.Click += (sender, e) =>
+            {
+                StartActivity(typeof(ToolbarActivitySecond));
+            };
+
         }
+
+        public override bool OnOptionsItemSelected(IMenuItem item)
+        {
+
+            switch(item.ItemId)
+            {
+                case Resource.Id.item1:
+                    Toast.MakeText(this, "Item1 tapped", ToastLength.Short).Show();
+
+                    return true;
+
+                case Resource.Id.item2:
+                    Toast.MakeText(this, "Item2 tapped", ToastLength.Short).Show();
+
+                    return true;
+
+                case Resource.Id.item3:
+                    Toast.MakeText(this, "Item3 tapped", ToastLength.Short).Show();
+
+                    return true;
+            }
+
+            return base.OnOptionsItemSelected(item);
+        }
+        public override bool OnCreateOptionsMenu(IMenu menu)
+        {
+            MenuInflater.Inflate(Resource.Menu.popupmenu, menu);
+
+            return base.OnCreateOptionsMenu(menu);
+        }
+
     }
 }
