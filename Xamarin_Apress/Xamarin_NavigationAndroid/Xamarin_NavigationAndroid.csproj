@@ -72,6 +72,8 @@
     <Compile Include="DrilldownListActivity.cs" />
     <Compile Include="FirstFragment.cs" />
     <Compile Include="FragmentsActivity.cs" />
+    <Compile Include="IntentActivity.cs" />
+    <Compile Include="IntentToActivity.cs" />
     <Compile Include="ListItem.cs" />
     <Compile Include="ListItemAdapter.cs" />
     <Compile Include="MainActivity.cs" />
@@ -86,6 +88,9 @@
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SecondFragment.cs" />
+    <Compile Include="TabFirstFragment.cs" />
+    <Compile Include="TabMenuActivity.cs" />
+    <Compile Include="TabSecondFragment.cs" />
     <Compile Include="ToolbarActivity.cs" />
     <Compile Include="ToolbarActivitySecond.cs" />
   </ItemGroup>
@@ -202,6 +207,36 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Drilldown3.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\TabMain.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\TabFirst.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\TabSecond.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Intent.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Intent2.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\IntentNew.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
