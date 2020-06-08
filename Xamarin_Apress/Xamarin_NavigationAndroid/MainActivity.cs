@@ -27,10 +27,10 @@ namespace Xamarin_NavigationAndroid
                 new ListItem {Title = "Modal Using AlertDialog", PageType= typeof(ModalAlertActivity)},
                 new ListItem {Title = "Popup Menu", PageType= typeof(PopupActivity)},
                 new ListItem {Title = "Passing Strings Using Intent", PageType= typeof(PassStringActivity)},
-                //new ListItem {Title = "Passing Objects Using Intent", PageType= typeof(PassObjectActivity)},
-                //new ListItem {Title = "Passing Data Using a Bundle", PageType= typeof(PassBundleActivity)},
-                //new ListItem {Title = "Drilldown List by Page", PageType= typeof(DrilldownListActivity)},
-                //new ListItem {Title = "Tabs Using ActionBar", PageType= typeof(TabMenuActivity)}
+                new ListItem {Title = "Passing Objects Using Intent", PageType= typeof(PassObjectActivity)},
+                new ListItem {Title = "Passing Data Using a Bundle", PageType= typeof(PassBundleActivity)},
+                new ListItem {Title = "Drilldown List by Page", PageType= typeof(DrilldownListActivity)},
+                new ListItem {Title = "Tabs Using ActionBar", PageType= typeof(TabMenuActivity)}
             };
 
             ListAdapter = new ListItemAdapter(this, listItems);

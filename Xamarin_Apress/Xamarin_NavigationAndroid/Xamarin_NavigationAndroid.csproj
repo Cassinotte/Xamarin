@@ -61,18 +61,27 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataModel.cs" />
     <Compile Include="DialogAlertActivity.cs" />
     <Compile Include="DialogFragmentAlert.cs" />
     <Compile Include="DialogFragmentView.cs" />
     <Compile Include="DialogViewActivity.cs" />
+    <Compile Include="DrilldownActivity1.cs" />
+    <Compile Include="DrilldownActivity2.cs" />
+    <Compile Include="DrilldownActivity3.cs" />
+    <Compile Include="DrilldownListActivity.cs" />
     <Compile Include="FirstFragment.cs" />
     <Compile Include="FragmentsActivity.cs" />
     <Compile Include="ListItem.cs" />
     <Compile Include="ListItemAdapter.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="ModalAlertActivity.cs" />
+    <Compile Include="PassBundleActivity.cs" />
+    <Compile Include="PassObjectActivity.cs" />
+    <Compile Include="PassObjectToActivity.cs" />
     <Compile Include="PassStringActivity.cs" />
     <Compile Include="PassStringToActivity.cs" />
+    <Compile Include="PassBundleToActivity .cs" />
     <Compile Include="PopupActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -115,6 +124,9 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>12.0.3</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.3" />
     <PackageReference Include="Xamarin.Android.Support.Core.Utils" Version="28.0.0.3" />
     <PackageReference Include="Xamarin.Android.Support.CustomTabs" Version="28.0.0.3" />
@@ -175,6 +187,21 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\PassTo.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Drilldown1.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Drilldown2.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Drilldown3.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
