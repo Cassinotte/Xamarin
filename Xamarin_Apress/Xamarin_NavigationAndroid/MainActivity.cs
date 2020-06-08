@@ -21,7 +21,7 @@ namespace Xamarin_NavigationAndroid
             listItems = new List<ListItem> {
                 //new ListItem {Title = "Starting Activities Using Intents", PageType= typeof(IntentActivity)},
                 new ListItem {Title = "Hierarchical Navigation Using Toolbar", PageType= typeof(ToolbarActivity)},
-                //new ListItem {Title = "Fragments", PageType= typeof(FragmentsActivity)},
+                new ListItem {Title = "Fragments", PageType= typeof(FragmentsActivity)},
                 //new ListItem {Title = "Modal Using DialogFragment", PageType= typeof(DialogViewActivity)},
                 //new ListItem {Title = "Alert Using DialogFragment", PageType= typeof(DialogAlertActivity)},
                 //new ListItem {Title = "Modal Using AlertDialog", PageType= typeof(ModalAlertActivity)},
