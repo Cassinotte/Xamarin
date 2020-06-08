@@ -47,6 +47,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xamarin_Apress_Navigation",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin_NavigationAndroid", "Xamarin_NavigationAndroid\Xamarin_NavigationAndroid.csproj", "{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin_NavigationIOS", "Xamarin_NavigationIOS\Xamarin_NavigationIOS.csproj", "{DCAD9C3F-C3A8-43BE-A757-A77518285B0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -525,6 +527,22 @@ Global
 		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Release|x86.ActiveCfg = Release|Any CPU
 		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Release|x86.Build.0 = Release|Any CPU
 		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD}.Release|x86.Deploy.0 = Release|Any CPU
+		{DCAD9C3F-C3A8-43BE-A757-A77518285B0F}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{DCAD9C3F-C3A8-43BE-A757-A77518285B0F}.Debug|ARM.ActiveCfg = Debug|iPhone
+		{DCAD9C3F-C3A8-43BE-A757-A77518285B0F}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{DCAD9C3F-C3A8-43BE-A757-A77518285B0F}.Debug|iPhone.Build.0 = Debug|iPhone
+		{DCAD9C3F-C3A8-43BE-A757-A77518285B0F}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{DCAD9C3F-C3A8-43BE-A757-A77518285B0F}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{DCAD9C3F-C3A8-43BE-A757-A77518285B0F}.Debug|x64.ActiveCfg = Debug|iPhone
+		{DCAD9C3F-C3A8-43BE-A757-A77518285B0F}.Debug|x86.ActiveCfg = Debug|iPhone
+		{DCAD9C3F-C3A8-43BE-A757-A77518285B0F}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{DCAD9C3F-C3A8-43BE-A757-A77518285B0F}.Release|ARM.ActiveCfg = Release|iPhone
+		{DCAD9C3F-C3A8-43BE-A757-A77518285B0F}.Release|iPhone.ActiveCfg = Release|iPhone
+		{DCAD9C3F-C3A8-43BE-A757-A77518285B0F}.Release|iPhone.Build.0 = Release|iPhone
+		{DCAD9C3F-C3A8-43BE-A757-A77518285B0F}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{DCAD9C3F-C3A8-43BE-A757-A77518285B0F}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{DCAD9C3F-C3A8-43BE-A757-A77518285B0F}.Release|x64.ActiveCfg = Release|iPhone
+		{DCAD9C3F-C3A8-43BE-A757-A77518285B0F}.Release|x86.ActiveCfg = Release|iPhone
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -548,6 +566,7 @@ Global
 		{F9E09252-5873-42FA-9F67-ED8C11D771DA} = {B924DCF1-5859-4EED-B2E5-D9C9BC5133D5}
 		{A9256DED-A415-45B2-BB76-281D7FA1F26E} = {B924DCF1-5859-4EED-B2E5-D9C9BC5133D5}
 		{7A5E388F-9C8B-40BC-A683-91CDCB205CAD} = {B924DCF1-5859-4EED-B2E5-D9C9BC5133D5}
+		{DCAD9C3F-C3A8-43BE-A757-A77518285B0F} = {B924DCF1-5859-4EED-B2E5-D9C9BC5133D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F13FB8F3-DFA6-49C0-A8DB-6E1E4F7807EF}
