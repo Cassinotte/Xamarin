@@ -40,19 +40,19 @@ namespace Xamarin_Apress_DataBinding
                                 CommandParameter = typeof(ItemPageUsingTitleViewModel)
                             },
 
-                            //new TextCell
-                            //{
-                            //    Text = "View Model Implementing INotifyPropertyChanged",
-                            //    Command = navigateCommand,
-                            //    CommandParameter = typeof(ItemPageUsingItemViewModel)
-                            //},
+                            new TextCell
+                            {
+                                Text = "View Model Implementing INotifyPropertyChanged",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(ItemPageUsingItemViewModel)
+                            },
 
-                            //new TextCell
-                            //{
-                            //    Text = "Data Model Implementing INotifyPropertyChanged",
-                            //    Command = navigateCommand,
-                            //    CommandParameter = typeof(ItemPageUsingItemBindable)
-                            //},
+                            new TextCell
+                            {
+                                Text = "Data Model Implementing INotifyPropertyChanged",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(ItemPageUsingItemBindable)
+                            },
 
                             //new TextCell
                             //{
