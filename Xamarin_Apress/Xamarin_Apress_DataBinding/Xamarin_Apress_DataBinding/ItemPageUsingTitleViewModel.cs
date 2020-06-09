@@ -26,8 +26,8 @@ namespace Xamarin_Apress_DataBinding
             {
                 Text = "Display Item Value",
                 FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Button)),
-                HorizontalOptions = LayoutOptions.Center,
-                VerticalOptions = LayoutOptions.Fill
+                HorizontalOptions = LayoutOptions.Fill,
+                VerticalOptions = LayoutOptions.Center
             };
 
             buttonDisplay.Clicked += async (sender, args) =>
@@ -39,8 +39,8 @@ namespace Xamarin_Apress_DataBinding
             {
                 Text = "Update the Data Model",
                 FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Button)),
-                HorizontalOptions = LayoutOptions.Center,
-                VerticalOptions = LayoutOptions.Fill
+                HorizontalOptions = LayoutOptions.Fill,
+                VerticalOptions = LayoutOptions.Center
             };
 
             buttonUpdate.Clicked += async (sender, args) =>
