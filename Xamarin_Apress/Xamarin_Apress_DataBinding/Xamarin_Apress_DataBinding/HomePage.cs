@@ -54,26 +54,26 @@ namespace Xamarin_Apress_DataBinding
                                 CommandParameter = typeof(ItemPageUsingItemBindable)
                             },
 
-                            //new TextCell
-                            //{
-                            //    Text = "Data Binding to a ListView",
-                            //    Command = navigateCommand,
-                            //    CommandParameter = typeof(ListViewPage)
-                            //},
+                            new TextCell
+                            {
+                                Text = "Data Binding to a ListView",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(ListViewPage)
+                            },
 
-                            //new TextCell
-                            //{
-                            //    Text = "Deleting Rows from a ListView",
-                            //    Command = navigateCommand,
-                            //    CommandParameter = typeof(ListObservablePage)
-                            //},
+                            new TextCell
+                            {
+                                Text = "Deleting Rows from a ListView",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(ListObservablePage)
+                            },
 
-                            //new TextCell
-                            //{
-                            //    Text = "Editing Properties in a ListView",
-                            //    Command = navigateCommand,
-                            //    CommandParameter = typeof(ListPropertiesPage)
-                            //},
+                            new TextCell
+                            {
+                                Text = "Editing Properties in a ListView",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(ListPropertiesPage)
+                            },
 
                             //new TextCell
                             //{
