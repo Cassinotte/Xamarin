@@ -75,12 +75,12 @@ namespace Xamarin_Apress_DataBinding
                                 CommandParameter = typeof(ListPropertiesPage)
                             },
 
-                            //new TextCell
-                            //{
-                            //    Text = "Edtiable ListView Bound to a View Model",
-                            //    Command = navigateCommand,
-                            //    CommandParameter = typeof(ListPageUsingListViewModel)
-                            //}
+                            new TextCell
+                            {
+                                Text = "Edtiable ListView Bound to a View Model",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(ListPageUsingListViewModel)
+                            }
                         }
 
                     }
