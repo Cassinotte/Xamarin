@@ -22,6 +22,21 @@ namespace Xamarin_Apress_SqlLite
             }
         }
 
+        static ItemRepository repository;
+
+        public static ItemRepository Repository
+        {
+            get
+            {
+                if (repository == null)
+                {
+                    repository = new ItemRepository();
+                }
+
+                return repository;
+            }
+        }
+
         public App()
         {
             InitializeComponent();

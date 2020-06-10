@@ -16,8 +16,8 @@ namespace Xamarin_Apress_SqlLite
             var listView = new ListView();
             listView.ItemsSource = new ListItemPage[] {
                 new ListItemPage {Title = "Basic Repository", PageType= typeof(DataAccessPageDatabase)},
-                //new ListItemPage {Title = "Advanced Repository", PageType= typeof(DataAccessPageRepository)},
-                //new ListItemPage {Title = "Access the Person Table", PageType= typeof(DataAccessPagePerson)}
+                new ListItemPage {Title = "Advanced Repository", PageType= typeof(DataAccessPageRepository)},
+                new ListItemPage {Title = "Access the Person Table", PageType= typeof(DataAccessPagePerson)}
             };
             listView.ItemTemplate = new DataTemplate(typeof(TextCell));
             listView.ItemTemplate.SetBinding(TextCell.TextProperty, "Title");

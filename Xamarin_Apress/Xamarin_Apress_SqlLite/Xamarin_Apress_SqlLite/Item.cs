@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Xamarin_Apress_SqlLite
 {
-    public class Item
+    public class Item : IObject
     {
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
