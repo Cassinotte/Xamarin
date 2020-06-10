@@ -115,7 +115,9 @@
     </ImageAsset>
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Mono.Data.Sqlite" />
     <Reference Include="System" />
+    <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
@@ -126,11 +128,6 @@
     <PackageReference Include="Xamarin.Forms" Version="4.5.0.495" />
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
   </ItemGroup>
+  <Import Project="..\Xamarin_Apress_ADONET\ADOdotNETexample.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\Xamarin_Apress_ADONET\Xamarin_Apress_ADONET.csproj">
-      <Project>{531305FA-A957-4FF6-860D-4429248CD650}</Project>
-      <Name>Xamarin_Apress_ADONET</Name>
-    </ProjectReference>
-  </ItemGroup>
 </Project>
