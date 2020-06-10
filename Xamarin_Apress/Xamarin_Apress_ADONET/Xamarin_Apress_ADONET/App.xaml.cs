@@ -10,7 +10,8 @@ namespace Xamarin_Apress_ADONET
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            MainPage = new ConnectionPage();
         }
 
         protected override void OnStart()
