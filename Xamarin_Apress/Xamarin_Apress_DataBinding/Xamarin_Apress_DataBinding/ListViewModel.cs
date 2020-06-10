@@ -34,5 +34,15 @@ namespace Xamarin_Apress_DataBinding
             }
         }
 
+        public void Replace()
+        {
+            items = new ObservableCollection<ObservableItem>
+            {
+                new ObservableItem { Title= "Primeiro", Description="First" },
+                new ObservableItem { Title= "Segundo", Description="Second" },
+                new ObservableItem { Title= "Terceiro", Description="Third"}
+            };
+        }
+
     }
 }

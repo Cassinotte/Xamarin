@@ -28,10 +28,56 @@ namespace Xamarin_Apress_DataBinding
                 ((ListView)sender).SelectedItem = null;
             };
 
-            Button buttonEdid = new Button
+            Button buttonEdit = new Button
             {
-                Text = "Edit Row"
-            }
+                Text = "Edit Row",
+                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Button)),
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.Fill
+            };
+
+            buttonEdit.Clicked += async (sender, args) =>
+            {
+                items.Items[0].Title = "First Edited";
+                await DisplayAlert("Edited", "First row edited", "Ok");
+            };
+
+            Button buttonDelete = new Button
+            {
+                Text = "Delete Row",
+                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Button)),
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.Fill
+            };
+
+            buttonDelete.Clicked += async (sender, args) =>
+            {
+                items.Items.RemoveAt(0);
+                await DisplayAlert("Delete", "Row deleted", "OK");
+            };
+
+            Button buttonReplace = new Button
+            {
+                Text = "Replace List",
+                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Button)),
+                HorizontalOptions = LayoutOptions.Center,
+                VerticalOptions = LayoutOptions.Fill
+            };
+
+            buttonReplace.Clicked += async (sender, args) =>
+            {
+                items.Replace();
+                await DisplayAlert("Replace", "List replace con Español", "OK");
+                listView.ItemsSource = items.Items;
+            };
+
+            Content = new StackLayout
+            {
+                Children = { buttonEdit, buttonDelete, buttonReplace, listView }
+            };
+
+            this.Padding = new Thickness(0, Device.OnPlatform(20, 0, 0), 0, 0);
+
         }
     }
 }
