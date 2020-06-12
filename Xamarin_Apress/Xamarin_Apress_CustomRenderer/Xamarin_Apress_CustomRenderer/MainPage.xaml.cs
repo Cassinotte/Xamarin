@@ -17,5 +17,10 @@ namespace Xamarin_Apress_CustomRenderer
         {
             InitializeComponent();
         }
+
+        public void ButtonClicked(object sender, EventArgs args)
+        {
+            DisplayAlert("Congratulations", "This button was rendered in a platform-specific class.", "OK");
+        }
     }
 }
